@@ -4,7 +4,9 @@ class DividedBy {
 
     for (int i = 0; i < number; i++) {
       if (i % 3 == 0 || i % 5 == 0) {
-        dividedNumbers.add(i);
+        if (i > 0) {
+          dividedNumbers.add(i);
+        }
       }
     }
 

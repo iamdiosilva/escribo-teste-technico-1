@@ -4,7 +4,7 @@ class NumberListHelper {
 
     for (int element in numbersList) {
       if (element != 0) {
-        numbersString += '${element.toString()} ';
+        numbersString += ' ${element.toString()}';
       }
     }
     return numbersString;
